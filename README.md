@@ -9,7 +9,7 @@ Some situations in which you might want this:
   * Your client stack places silly restrictions on your use, like
     preventing a body in `DELETE` requests.
 
-  * You are in a browser and get redirected from a `GET` to a `POST`
+  * You are in a browser and get redirected from a `POST` to a `GET`
     but you still want to hit a `POST` API.
 
 If you use this with a router that does method-based routing, as long
